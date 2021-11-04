@@ -26,5 +26,8 @@
   },
   "bugs": {
     "url": "https://github.com/lkdghzh/monorepo-example/issues"
+  },
+  "devDependencies": {
+    "clone": "0.0.2"
   }
 }
