@@ -56,3 +56,12 @@ lerna info Installing external dependencies
 lerna info Symlinking packages and binaries
 lerna success Bootstrapped 3 packages
 ```
+## lerna link
+```
+lerna link
+cd packages/commit
+
+"devDependencies": {
+    "clone": "0.0.2"
+}
+```
