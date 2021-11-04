@@ -24,7 +24,8 @@
     "url": "git+https://github.com/lkdghzh/monorepo-example.git"
   },
   "scripts": {
-    "test": "echo \"run tests from clone\""
+    "test": "echo \"run tests from clone\"",
+    "lint": "eslint"
   },
   "bugs": {
     "url": "https://github.com/lkdghzh/monorepo-example/issues"

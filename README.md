@@ -29,3 +29,20 @@ lerna success run Ran npm script 'test' in 3 packages in 0.4s:
 lerna success - clone
 lerna success - commit
 ```
+## lerna exec script [--scope]
+```
+npm i eslint -g
+
+➜  monorepo-example git:(master) ✗ lerna exec eslint
+lerna notice cli v4.0.0
+lerna info Executing command in 3 packages: "eslint"
+lerna success exec Executed command in 3 packages: "eslint"
+
+
+➜  monorepo-example git:(master) ✗ lerna exec eslint --scope clone
+lerna notice cli v4.0.0
+lerna notice filter including "clone"
+lerna info filter [ 'clone' ]
+lerna info Executing command in 1 package: "eslint"
+lerna success exec Executed command in 1 package: "eslint"
+```
