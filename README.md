@@ -13,7 +13,7 @@ lerna create clone
 lerna create commit
 lerna create push
 ```
-## lerna run test
+## lerna run scriptKey
 ```
 lerna run test
 ➜  monorepo-example git:(master) ✗ lerna run test
