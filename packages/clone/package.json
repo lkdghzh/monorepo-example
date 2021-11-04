@@ -29,5 +29,8 @@
   },
   "bugs": {
     "url": "https://github.com/lkdghzh/monorepo-example/issues"
+  },
+  "dependencies": {
+    "yargs": "^17.2.1"
   }
 }

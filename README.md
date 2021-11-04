@@ -46,3 +46,13 @@ lerna info filter [ 'clone' ]
 lerna info Executing command in 1 package: "eslint"
 lerna success exec Executed command in 1 package: "eslint"
 ```
+
+## lerna add yargs packages/clone
+```
+lerna notice cli v4.0.0
+lerna info Adding yargs in 1 package
+lerna info Bootstrapping 3 packages
+lerna info Installing external dependencies
+lerna info Symlinking packages and binaries
+lerna success Bootstrapped 3 packages
+```
