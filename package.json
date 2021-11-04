@@ -1,15 +1,7 @@
 {
-  "name": "monorepo-example",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "init": "lerna init"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "name": "root",
+  "private": true,
+  "devDependencies": {
     "lerna": "^4.0.0"
   }
 }
